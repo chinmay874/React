@@ -1,16 +1,14 @@
-import './benifit.css'
-
 export function Benifit(){
     return (
         <div>
         <h1>Benifits of using reacts...</h1>
-        <p>
-          1. Component-based architecture<br />
-          2. Virtual Dom for efficient updates <br />
-          3. Rich ecosystem and community <br />
-          4. Cross-platform development <br />
-          5. Strong community support <br />
-        </p>
+        <ol>
+          <li>Component-based architecture.</li>
+          <li>Virtual Dom for efficient updates.</li>
+          <li>Rich ecosystem and community.</li>
+          <li>Cross-platform development.</li>
+          <li>Strong community support.</li>
+        </ol>
         </div>
     )
 }
